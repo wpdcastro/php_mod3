@@ -1,0 +1,299 @@
+Array
+(
+    [0] => Array
+        (
+            [name] => Marília
+            [population] => 209323
+            [mayor] => Array
+                (
+                    [name] => Daniel Alonso
+                    [corrupt] => 1
+                    [birthdate] => 1984-05-19
+                )
+
+            [councilman] => Array
+                (
+                    [started_at] => 2014-01-01
+                    [people] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Tiririca
+                                    [contact] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [0] => 14996048151
+                                                    [1] => 14997451687
+                                                )
+
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [name] => Romarinho
+                                    [relatives] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [name] => José
+                                                    [useless] => 1
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [name] => Papai Noel
+                                                    [useless] =>
+                                                )
+
+                                        )
+
+                                    [contact] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [0] => 14994848751
+                                                    [1] => 14997846568
+                                                )
+
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [name] => Alceu
+                                    [contact] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [0] => 14997894561
+                                                    [1] => 14998262651
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [name] => Bauru
+            [population] => 354987
+            [mayor] => Array
+                (
+                    [name] => Clodoaldo Gazetta
+                    [corrupt] => 1
+                    [birthdate] => 1964-05-19
+                )
+
+            [councilman] => Array
+                (
+                    [started_at] => 2017-01-01
+                    [people] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Riquelme
+                                    [relatives] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [name] => Juan
+                                                    [useless] => 1
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [name] => Jesus
+                                                    [useless] => 1
+                                                )
+
+                                            [2] => Array
+                                                (
+                                                    [name] => Coelho da Páscoa
+                                                    [useless] =>
+                                                )
+
+                                        )
+
+                                    [contact] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [0] => 14989464651
+                                                    [1] => 14984613215
+                                                )
+
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [name] => Biro Biro
+                                    [contact] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [0] => 1494894651
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [name] => Presidente Prudente
+            [population] => 201564
+            [mayor] => Array
+                (
+                    [name] => Nelson Bagulho
+                    [corrupt] => 1
+                    [birthdate] => 1967-05-19
+                )
+
+            [councilman] => Array
+                (
+                    [started_at] => 2016-01-01
+                    [people] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Moraes
+                                    [relatives] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [name] => João
+                                                    [useless] => 1
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [name] => Pedro
+                                                    [useless] => 1
+                                                )
+
+                                            [2] => Array
+                                                (
+                                                    [name] => Lucas
+                                                    [useless] => 1
+                                                )
+
+                                        )
+
+                                    [contact] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [0] => 14322141231
+                                                    [1] => 14894578416
+                                                    [2] => 14984651984
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+/////////////
+
+array (
+  0 =>
+  array (
+    'name' => 'Daniel',
+    'nickname' => 'Minion',
+    'age' => 17,
+    'started_at' => '2017-03-15',
+    'skills' =>
+    array (
+      0 => 'CSS',
+      1 => 'PHP',
+      2 => 'HTML',
+      3 => 'SQL',
+      4 => 'PWA',
+    ),
+  ),
+  1 =>
+  array (
+    'name' => 'Leonardo',
+    'nickname' => 'Patinho',
+    'age' => 19,
+    'started_at' => '2017-05-10',
+    'skills' =>
+    array (
+      0 => 'SQL',
+      1 => 'PHP',
+    ),
+  ),
+  2 =>
+  array (
+    'name' => 'Lucas',
+    'nickname' => 'Lucão',
+    'started_at' => '2015-01-01',
+    'age' => 25,
+    'skills' =>
+    array (
+      0 => 'PHP',
+      1 => 'Vue',
+      2 => 'Ruby',
+      3 => 'CSS',
+      4 => 'Html',
+      5 => 'Javascript',
+      6 => 'Laravel',
+    ),
+  ),
+  3 =>
+  array (
+    'name' => 'Walter',
+    'nickname' => 'Neto',
+    'started_at' => '2017-03-01',
+    'age' => 21,
+    'skills' =>
+    array (
+      0 => 'PHP',
+      1 => 'Vue',
+      2 => 'PWA',
+      3 => 'JavaScript',
+      4 => 'ServiceWorker',
+    ),
+  ),
+  4 =>
+  array (
+    'name' => 'Marcelo',
+    'nickname' => 'PT',
+    'started_at' => '2016-06-01',
+    'age' => 20,
+    'skills' =>
+    array (
+      0 => 'Ruby',
+      1 => 'Ruby on Rails',
+      2 => 'SQL',
+      3 => 'PHP',
+      4 => 'Laravel',
+      5 => 'PWA',
+      6 => 'Vue',
+    ),
+  ),

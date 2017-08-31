@@ -10,50 +10,22 @@ foreach ($comics as $produtoras => $dados) {
 }
 
 echo '-------------- b ----------------' . PHP_EOL;
-$ordenado = [[
-                'produtora'=> 0,
-                'fundador' => 0,
-                'data_morte' => 0,
-             ],
-             [
-                'produtora'=> 0,
-                'fundador' => 0,
-                'data_morte' => 0,
-             ],
-             [
-                'produtora'=> 0,
-                'fundador' => 0,
-                'data_morte' => 0,
-             ],
-            ];
-$i = 0;
-foreach ($comics as $produtoras => $dados) {
-    foreach ($ordenado as $valor) {
-        $ordenado[$i]['produtora'] = $produtoras;
-        $ordenado[$i]['fundador'] = $dados['founder']['name'];
-        if ($dados['founder']['passed_at'] == NULL) {
-          $ordenado[$i]['data_morte'] = 0;
-        } else {
-        $ordenado[$i]['data_morte'] = $dados['founder']['passed_at'];
-        }
+
+foreach ($comics as $produtos => $dados) {
+    if ( $dados['founder']['passed_at'] == NULL) {
+        $idadeF = 0;
+    } else {
+       $idadeF = $dados['founder']['passed_at'] - $dados['founder']['born_at'];
     }
-    $i++;
+    $nomes = $dados['founder']['name'];
+    $idades[$produtos . ' | ' . $nomes] = $idadeF;
 }
 
-$dm = [];
-foreach ($ordenado as $key => $valor) {
-    $dm[$key] = $valor['data_morte'];
+asort($idades);
+foreach ($idades as $nome => $dataM) {
+    echo $nome . ' > ' . $dataM . PHP_EOL;
 }
 
-array_multisort($dm, SORT_ASC, $ordenado);
-
-foreach ($ordenado as $key => $value) {
-    echo 'Produtora: ' . $value['produtora'] . PHP_EOL;
-    echo 'Fundador: ' . $value['fundador'] . PHP_EOL;
-    echo 'Data de Falecimento = '.  $value['data_morte'] . PHP_EOL;
-}
-
-----------------------------------------------------------------------------:
 echo PHP_EOL;
 
 echo '-------------- c ----------------' . PHP_EOL;

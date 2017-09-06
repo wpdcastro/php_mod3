@@ -24,5 +24,8 @@ if(isset($_GET['x'])) {
 	require_once (__DIR__ . '/' . $_GET['x'] . '.php');
 }
 
+
+echo '>>>>> ' . $_SESSION . PHP_EOL;
+
 ?> 
 
